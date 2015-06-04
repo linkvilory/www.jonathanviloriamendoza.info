@@ -1,0 +1,101 @@
+
+/* Sections for all pages */
+.menu {
+    list-style: outside none none;
+    padding: 0 20px;
+}
+.menu li {
+    color: #212224;
+    display: inline-block;
+    font-family: arial;
+    height: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-right: 20px;
+    text-align: center;
+    width: auto;
+}
+a, a:active, a:focus {
+    color: #212224;
+    text-decoration: none;
+}
+a:hover{
+	color:#455470;
+	text-decoration: underline;
+}
+h1 {
+    font-family: times;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#676A70;
+}
+h2 {
+    font-family: times;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#676A70;
+}
+p {
+    font-family: georgia;
+    font-size: 1em;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+input[type="button"] {
+    background: #455470 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 5px;
+    color: #e3e3e3;
+    display: block;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    min-height: 45px;
+    min-width: 220px;
+    text-transform: uppercase;
+}
+input[type="text"], textarea {
+    background: #adb2bd none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 5px;
+    color: #212224;
+    display: block;
+    height: 45px;
+    margin: 0 auto 15px;
+    width: 100%;
+    max-width: 300px;
+    padding: 0 15px;
+}
+textarea{
+    height: 160px;
+    line-height: 40px;
+}
+/*
+ * Header
+ */
+
+header{
+	background: #262e3d none repeat scroll 0 0;
+    border-bottom: 1px solid #212224;
+    color: #fff;
+    min-height: 50px;
+}
+
+/* End Header */ 
+
+/*
+ * Footer Section
+ */
+footer{
+	min-height:150px;
+	background:#212224;
+	color:#fff;
+} 
+footer .copyright {
+    display: inline;
+    font-family: georgia;
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    text-align: right;
+}
+/* End Footer Section */ 
