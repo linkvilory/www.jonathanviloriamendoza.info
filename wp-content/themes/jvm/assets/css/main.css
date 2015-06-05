@@ -29,7 +29,7 @@ h1 {
     text-transform: uppercase;
     color:#676A70;
 }
-h2 {
+h2, h3, h4, h5, h6 {
     font-family: times;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -84,10 +84,134 @@ header{
 /* End Header */ 
 
 /*
+ * #bio section
+ */
+#bio {
+    border-top: 60px solid #93894c;
+    padding: 0 0 60px;
+}
+/* End #bio section */ 
+
+/*
+ * #proyectos section
+ */
+#proyectos {
+    border-top: 60px solid #4a4757;
+    padding: 0 0 60px;
+}
+/* End #proyectos section */ 
+
+/*
+ * #codigo section
+ */
+#codigo {
+    border-top: 60px solid #5c6370;
+    padding: 0 0 60px;
+}
+
+#codigo .grid {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#codigo .gridContainer {
+    position: relative;
+}
+#codigo .imgGridContainer {
+    background: white none repeat scroll 0 0;
+    border: 5px solid #212224;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#codigo .imgGrid {
+    max-width: 400px;
+    width: 100%;
+}
+#codigo .captionGridContainer {
+    background: rgba(68, 68, 68, 0.6) none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #e3e3e3;
+    height: 100%;
+    padding: 8px 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#codigo .tituloCaption {
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    text-align: left;
+}
+#codigo .descripcionCaption {
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    text-align: left;
+}
+/* End #codigo section */ 
+
+/*
+ * #interesante section
+ */
+#interesante {
+    border-top: 60px solid #6c7061;
+    padding: 0 0 60px;
+}
+
+#interesante .grid {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#interesante .gridContainer {
+    position: relative;
+}
+#interesante .imgGridContainer {
+    background: white none repeat scroll 0 0;
+    border: 5px solid #212224;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#interesante .imgGrid {
+    max-width: 300px;
+    width: 100%;
+}
+#interesante .captionGridContainer {
+    background: rgba(68, 68, 68, 0.6) none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #e3e3e3;
+    height: 100%;
+    padding: 8px 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#interesante .tituloCaption {
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    text-align: left;
+}
+#interesante .descripcionCaption {
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    text-align: left;
+}
+/* End #interesante section */ 
+
+/*
+ * #contacto section
+ */
+#contacto {
+    background: rgba(0, 0, 0, 0) url("/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg") repeat fixed 0 0 / cover ;
+    padding: 60px 0;
+}
+#contacto h1 {
+    display: none;
+} 
+/* End #contacto section */ 
+/*
  * Footer Section
  */
 footer{
-	min-height:150px;
+    padding: 60px 0;
+	min-height:130px;
 	background:#212224;
 	color:#fff;
 } 

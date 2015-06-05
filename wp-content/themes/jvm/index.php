@@ -87,7 +87,7 @@ Version: 1.0.0
 					 Hay veces que la creatividad nos limita a crear nuevas y grandes cosas para este mundo, por eso nunca limito a mi cliente porque aunque parezca que
 					 su idea sea la más loca del mundo, esta idéa puede que sea lo que nos hace falta, "Algo nuevo".</p>
 
-					<h2>Bienvenido</h2>
+					<h4>Bienvenido</h4>
 					<p>Este blog es para servirle de ayuda a los que apenas estan empezando en este mundo fantástico llamado "Tecnologías de la Información", aquí encontrarás
 					 problemas reales para distintos proyectos, en donde te aportaré mi forma de resolverlos y no soló eso, sino también te explicaré como es que se solucionó
 					 con ejemplos de codigo del mismo proyecto. Aparte escribiré de temas importantes relacionados con la Maestría que estoy cursando, asi que el contenido será
@@ -107,7 +107,7 @@ Version: 1.0.0
 					<h1>Sección proyectos</h1>
 					<p>En esta sección encontrarás todos los proyectos o en su mayoría en los que he estado involucrado, algunos son sitios web, otros apps, etc.
 					 Los proyectos son generales y especificos así que si algo te sirve adelante, puedes echar un vistazo.</p>
-					<h2>Proyectos más recientes</h2>
+					<h4>Proyectos más recientes</h4>
 
 					<input type="button" class="" name="proyectos" value="Ir a los proyectos" />
 
@@ -125,7 +125,43 @@ Version: 1.0.0
 					
 					<h1>Código fuente</h1>
 					<p>Aquí podrás descargar demos, templates y demás codigo fuente que te pueda servir.</p>
-					<h2>Descarga lo último en lo que he estado trabajando</h2>
+					<h4>Descarga lo último en lo que he estado trabajando</h4>
+
+					<div class="grid col-md-4">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid col-md-4">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid col-md-4">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
 
 					<input type="button" class="" name="codigo" value="Bajar y compilar" />
 				</div>
@@ -142,8 +178,54 @@ Version: 1.0.0
 					
 					<h1>Aprende algo nuevo</h1>
 					<p>En esta sección trataré casos de estudio para reflexionar, noticias, y temas interesantes... Bueno almenos eso yo pienso, jeje.</p>
-					<h2>Ultimas adquisiciones</h2>
+					
+					<h4>Ultimas adquisiciones</h4>
+					<div class="grid col-md-3">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid col-md-3">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid col-md-3">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid col-md-3">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
 
+					<div class="clearfix"></div>
 					<input type="button" class="" name="temas" value="Ir a lo interesante" />
 				</div>
 			</div>
