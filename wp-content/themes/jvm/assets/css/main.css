@@ -78,17 +78,34 @@ header{
 	background: #262e3d none repeat scroll 0 0;
     border-bottom: 1px solid #212224;
     color: #fff;
-    min-height: 50px;
+    height: 100px;
 }
-
+.logo {
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 50px;
+    letter-spacing: -10px;
+    margin: 0 30px 0 10px;
+}
+.description {
+    display: inline-block;
+    font-family: times;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.social i {
+    font-size: 30px;
+    line-height: 75px;
+    margin: 0 10px;
+}
 /* End Header */ 
 
 /*
  * #bio section
  */
 #bio {
-    border-top: 60px solid #93894c;
-    padding: 0 0 60px;
+    padding: 60px 0;
 }
 /* End #bio section */ 
 
@@ -96,8 +113,42 @@ header{
  * #proyectos section
  */
 #proyectos {
-    border-top: 60px solid #4a4757;
-    padding: 0 0 60px;
+    padding: 60px 0;
+}
+
+#proyectos .grid {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#proyectos .gridContainer {
+    position: relative;
+}
+#proyectos .imgGridContainer {
+    background: white none repeat scroll 0 0;
+    overflow: hidden;
+}
+#proyectos .imgGrid {
+    max-width: 400px;
+    width: 100%;
+}
+#proyectos .captionGridContainer {
+    background: rgba(68, 68, 68, 0.6) none repeat scroll 0 0;
+    color: #e3e3e3;
+    height: 100%;
+    padding: 8px 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#proyectos .tituloCaption {
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    text-align: left;
+}
+#proyectos .descripcionCaption {
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    text-align: left;
 }
 /* End #proyectos section */ 
 
@@ -105,8 +156,7 @@ header{
  * #codigo section
  */
 #codigo {
-    border-top: 60px solid #5c6370;
-    padding: 0 0 60px;
+    padding: 60px 0;
 }
 
 #codigo .grid {
@@ -118,8 +168,6 @@ header{
 }
 #codigo .imgGridContainer {
     background: white none repeat scroll 0 0;
-    border: 5px solid #212224;
-    border-radius: 20px;
     overflow: hidden;
 }
 #codigo .imgGrid {
@@ -128,7 +176,6 @@ header{
 }
 #codigo .captionGridContainer {
     background: rgba(68, 68, 68, 0.6) none repeat scroll 0 0;
-    border-radius: 20px;
     color: #e3e3e3;
     height: 100%;
     padding: 8px 10px;
@@ -152,8 +199,7 @@ header{
  * #interesante section
  */
 #interesante {
-    border-top: 60px solid #6c7061;
-    padding: 0 0 60px;
+    padding: 60px 0;
 }
 
 #interesante .grid {
@@ -165,8 +211,6 @@ header{
 }
 #interesante .imgGridContainer {
     background: white none repeat scroll 0 0;
-    border: 5px solid #212224;
-    border-radius: 20px;
     overflow: hidden;
 }
 #interesante .imgGrid {
@@ -175,7 +219,6 @@ header{
 }
 #interesante .captionGridContainer {
     background: rgba(68, 68, 68, 0.6) none repeat scroll 0 0;
-    border-radius: 20px;
     color: #e3e3e3;
     height: 100%;
     padding: 8px 10px;
@@ -211,7 +254,7 @@ header{
  */
 footer{
     padding: 60px 0;
-	min-height:130px;
+	min-height:150px;
 	background:#212224;
 	color:#fff;
 } 
@@ -221,5 +264,10 @@ footer .copyright {
     font-size: 0.6em;
     letter-spacing: 2px;
     text-align: right;
+}
+.brand i {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0 10px;
 }
 /* End Footer Section */ 

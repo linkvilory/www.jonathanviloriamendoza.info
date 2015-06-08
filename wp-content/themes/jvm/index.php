@@ -42,12 +42,14 @@ Version: 1.0.0
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
-					<img class="logo" alt="logo" title="logo" src="" />
-					<em class="description">Linkvilory</em>
-
+					<em class="logo">JVM</em>
+					<em class="description">@Linkvilory</em>
+				</div>
+				<div class="col-md-3 col-md-offset-6">
 					<div class="social">
-						<em>twitter</em>
-						<em>facebook</em>
+						<em><a href="https://mx.linkedin.com/pub/jonathan-viloria-mendoza/86/75b/936" target="_blank"><i class="fa fa-linkedin"></i></a></em>
+						<em><a href="https://www.facebook.com/linkvilory" target="_blank"><i class="fa fa-facebook"></i></a></em>
+						<em><a href="https://twitter.com/linkvilory" target="_blank"><i class="fa fa-twitter"></i></a></em>
 					</div>
 				</div>
 			</div>
@@ -108,6 +110,42 @@ Version: 1.0.0
 					<p>En esta sección encontrarás todos los proyectos o en su mayoría en los que he estado involucrado, algunos son sitios web, otros apps, etc.
 					 Los proyectos son generales y especificos así que si algo te sirve adelante, puedes echar un vistazo.</p>
 					<h4>Proyectos más recientes</h4>
+
+					<div class="grid col-md-4">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid col-md-4">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid col-md-4">
+						<div class="gridContainer">
+							<div class="imgGridContainer">
+								<img class="imgGrid" src="/wp-content/themes/jvm/assets/img/bg/correos-de-mexico.jpg" alt="" />
+							</div>	
+							<div class="captionGridContainer">
+								<p class="tituloCaption">Caso de estudio: Cambio climático</p>
+								<p class="descripcionCaption">Averigua unas de las tantas razones de porqué en México hay más basura.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
 
 					<input type="button" class="" name="proyectos" value="Ir a los proyectos" />
 
@@ -255,12 +293,19 @@ Version: 1.0.0
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
-
-					<span class="copyright">&copy; Creado por Jonathan Viloria Mendoza.</span>
-
+				<div class="col-md-3 col-md-offset-9">
+					<div class="brand">
+						<i class="fa fa-html5"></i>
+						<i class="fa fa-css3"></i>
+						<i class="fa fa-wordpress"></i>
+					</div>	
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<span class="copyright">&copy; Creado por Jonathan Viloria Mendoza.</span>
+				</div>
+			</div>	
 		</div>	
 
 	</footer>
